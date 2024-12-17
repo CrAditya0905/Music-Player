@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Playlist</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Internal CSS -->
+  <style>
+    /* Change the background color and font style globally */
+    body {
+      font-family: 'Arial', sans-serif; /* Change to any font you prefer */
+      background-color: #f0f0f0; /* Light gray background for the body */
+    }
+
+    /* Style for the navigation bar */
+    .navbar {
+      background-color: #343a40; /* Dark background for the navbar */
+    }
+
+    .navbar-brand, .nav-link {
+      color: #f8f9fa !important; /* Light color for text in navbar */
+    }
+
+    .navbar-nav .nav-item.active .nav-link {
+      color: #007bff !important; /* Blue color for the active link */
+    }
+
+    /* Hero section style */
+    .hero {
+      background-color: #333; /* Dark background for the hero section */
+      color: white; /* White text color */
+    }
+
+    .hero h1 {
+      font-family: 'Georgia', serif; /* Elegant font for heading */
+    }
+
+    /* Card style for song items */
+    .card {
+      background-color: #ffffff; /* White background for cards */
+      border-radius: 10px; /* Rounded corners for cards */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    }
+
+    .card-title {
+      color: #007bff; /* Blue color for the song title */
+      font-weight: bold;
+    }
+
+    .card-text {
+      color: #6c757d; /* Lighter text for artist name */
+    }
+
+    /* Footer styling */
+    footer {
+      background-color: #343a40; /* Dark background for footer */
+      color: white; /* White text color */
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="index.html">Music Playlist</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="explore.html">Explore</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Welcome to My Music Playlist</h1>
+      <p>Discover your favorite songs and artists</p>
+    </div>
+  </section>
+
+  <!-- Playlist Section -->
+  <section class="container py-5">
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="assets/img/song-image.jpg" class="card-img-top" alt="Song Image">
+          <div class="card-body">
+            <h5 class="card-title">Song Title 1</h5>
+            <p class="card-text">Artist Name 1</p>
+            <a href="player.html" class="btn btn-primary">Play</a>
+          </div>
+        </div>
+      </div>
+
+      <section class="container py-5">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="assets/img/song-image.jpg" class="card-img-top" alt="Song Image">
+              <div class="card-body">
+                <h5 class="card-title">Song Title 1</h5>
+                <p class="card-text">Artist Name 2</p>
+                <a href="player.html" class="btn btn-primary">Play</a>
+              </div>
+            </div>
+          </div>
+
+          
+      <section class="container py-5">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="assets/img/song-image.jpg" class="card-img-top" alt="Song Image">
+              <div class="card-body">
+                <h5 class="card-title">Song Title 1</h5>
+                <p class="card-text">Artist Name 2</p>
+                <a href="player.html" class="btn btn-primary">Play</a>
+              </div>
+            </div>
+          </div>
+      <!-- Add more song cards here -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4">
+    <p>&copy; 2024 Music Playlist. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
